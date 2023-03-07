@@ -1,0 +1,85 @@
+@media (max-width: 768px) {
+    .column {
+        padding: 5px;
+    }
+    .word {
+        font-size: 20px;
+    }
+    .top {
+        font-size: 30px;
+    }
+    .waiting-count {
+        margin-top: 100px;
+        font-size: 30px;
+    }
+}
+html {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    height: 100%;
+}
+.column {
+    background-color: #14d314;
+    padding: 10px;
+}
+
+.progress-bar {
+    position: relative;
+    background-color: #ddd;
+    height: 20px;
+    width: 67%;
+    border-radius: 10px;
+    top: 55%;
+}
+
+.progress {
+    background-color: green;
+    height: 100%;
+    border-radius: 10px;
+    transition: width 1s ease;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.word {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 45px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.img {
+    position: absolute;
+    left: calc(67% - 10%);
+    top: -625%; /* 調整圖片位置，讓圖片與進度條上緣對齊 */
+    z-index: 2;
+    width: 20%;
+    height: auto;
+}
+
+.waiting-count {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 400px;
+}
+body {
+    min-width: 320px;
+    min-height: 480px;
+}
