@@ -1,19 +1,16 @@
-# HW1 負評救星-當機等候網頁
+# Web程式設計 HW1 負評救星-當機等候網頁
 
 # 目標網站— UberEats
 
 **目標網址**：[https://www.ubereats.com/](https://www.ubereats.com/)
 
-![Untitled](Untitled.png)
+![Untitled](Readme/Untitled.png)
 
 說明：UberEats為一個國際性的外送平台，擁有許多美食，每日透過使用UberEats來吃三餐的人
 
 在臺灣不佔少數，極有可能會因為人流過大而導致當機，因此選定該主題。
 
 # 設計理念
-
-成品：[https://poetry15.github.io/HW1.github.io/](https://poetry15.github.io/HW1.github.io/)
-
 - 網頁上的用色基本上採用UberEats的綠白黑所組成
 - 利用自動跳轉功能，能讓使用者不必重複刷新該網頁
 
@@ -191,7 +188,7 @@ updateProgress();
 
 - 圖示
     
-    ![Untitled](Untitled%201.png)
+    ![Untitled](Readme/Untitled%201.png)
     
 - 綠底黑字為目標網站的logo用色
 
@@ -212,7 +209,7 @@ updateProgress();
 
 - 圖示
     
-    ![Untitled](Untitled%202.png)
+    ![Untitled](Readme/Untitled%202.png)
     
 - 以文字說明情況
 - 將網頁形容成美食外送
@@ -248,7 +245,7 @@ h1 {
 
 - 圖示
     
-    ![Untitled](Untitled%203.png)
+    ![Untitled](Readme/Untitled%203.png)
     
 - 用來顯示進度
 
@@ -298,7 +295,7 @@ function updateProgress(){ //讓進度條的寬度持續改變且圖片跟著進
 
 - 圖示
     
-    ![Untitled](Untitled%204.png)
+    ![Untitled](Readme/Untitled%204.png)
     
 - 用來顯示還有幾個人正在等待進入
 - 當進度條跑滿時，等待人數將歸零
